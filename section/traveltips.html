@@ -5,39 +5,47 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Hola viajero</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css" />
     </head>
 
     <body>
         <header>
-            <p class="banner">¡Si vas a dar vueltas que sea al mundo!</p>
-            <a href="../"
-                ><img
-                    src="../images/logo holaViajero.png"
-                    class="logo"
+            <p class="banner p-2 m-0">¡Si vas a dar vueltas que sea al mundo!</p>
+            <nav class="navbar navbar-expand-lg p-2 links">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="./index.html">
+                    <img
+                    src="../images/logo_hola_viajero_sin_fondo.png"
+                    class="scale-in-center"
                     alt="logo"
-            /></a>
-            <nav>
-                <ul class="links">
-                    <li><a href="./places.html">Destinos</a></li>
-                    <li><a href="./traveltips.html">Travel tips</a></li>
-                    <li><a href="./offers.html">Ofertas</a></li>
-                    <li><a href="./contact.html">Contacto</a></li>
-                </ul>
-            </nav>
+                    />
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav d-flex gap-5">
+                      <a class="nav-link active text-white" aria-current="page" href="../section/places.html">Destinos</a>
+                      <a class="nav-link text-white" href="../section/traveltips.html">Travel tips</a>
+                      <a class="nav-link text-white" href="../section/offers.html">Ofertas</a>
+                      <a class="nav-link text-white" href="../section/contact.html">Contacto</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
         </header>
         <main>
-            <h1 class="tittle-traveltips">Travel Tips</h1>
-            <h2 class="subtittle-traveltips">
-                ¿Que tener en cuenta al momento de viajar en avión?
-            </h2>
-            <h3 class="subtittle-traveltips">
-                Si estas preparando tu primer viaje a tu destino soñado este
-                articulo es para vos
-            </h3>
-            <article class="article-travel">
-                <div class="article-trip">
-                    <p>
+            <article class="container">
+                <h1 class="tittle-traveltips mt-5">Travel Tips</h1>
+                <h2 class="subtittle-traveltips">
+                    ¿Que tener en cuenta al momento de viajar en avión?
+                </h2>
+                <h3 class="subtittle-traveltips">
+                    Si estas preparando tu primer viaje a tu destino soñado este
+                    articulo es para vos
+                </h3>
+                <p>
                         Esta información es para que aprendas a viajar en avión
                         como un experto. Lo de experto lo digo en plan broma,
                         porque incluso yo, después de muchísimos vuelos, sigo
@@ -364,35 +372,28 @@
                         src="../images/passenger.webp"
                         alt="passenger"
                     />
-                </div>
             </article>
         </main>
-
-        <footer class="footer">
-            <ul>
-                <li>Email: agustina@mail.com</li>
-                <li>Cel: +549-3864678907</li>
+        <footer class="d-flex flex-wrap justify-content-center align-items-center mt-5">
+            <ul class="list-unstyled">
+                <li class="text-center">Email: agustina@mail.com</li>
+                <li class="text-center">Cel: +549-3864678907</li>
             </ul>
-            <img src="../images/logo holaViajero.png" alt="logo" />
-            <ul>
-                <li>
-                    <img
-                        src="../icons/icons8-facebook-nuevo.svg"
-                        alt="facebook"
-                    />
-                    <span>Facebook</span>
+            <img src="../images/logo_hola_viajero_sin_fondo.png" alt="logo" />
+            <ul class="list-unstyled">
+                <li class="text-center">
+                    <span>
+                        <img src="../icons/icons8-facebook-nuevo.svg" alt="facebook" />
+                        Facebook</span>
                 </li>
-                <li>
-                    <img src="../icons/instagram.svg" alt="instagram" /><span
-                        >Instagram</span
-                    >
+                <li class="text-center">
+                    <span><img src="../icons/instagram.svg" alt="instagram" />Instagram</span>
                 </li>
-                <li>
-                    <img src="../icons/youtube.svg" alt="youtube" /><span
-                        >Youtube</span
-                    >
+                <li class="text-center">
+                    <span><img src="../icons/youtube.svg" alt="youtube" />Youtube</span>
                 </li>
             </ul>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>

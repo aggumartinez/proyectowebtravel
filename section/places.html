@@ -5,30 +5,39 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Hola viajero</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css" />
     </head>
 
     <body>
         <header>
-            <p class="banner">¡Si vas a dar vueltas que sea al mundo!</p>
-            <a href="../"
-                ><img
-                    src="../images/logo holaViajero.png"
-                    class="logo"
+            <p class="banner p-2 m-0">¡Si vas a dar vueltas que sea al mundo!</p>
+            <nav class="navbar navbar-expand-lg p-2 links">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html">
+                    <img
+                    src="../images/logo_hola_viajero_sin_fondo.png"
+                    class="scale-in-center"
                     alt="logo"
-            /></a>
-            <nav>
-                <ul class="links">
-                    <li><a href="./places.html">Destinos</a></li>
-                    <li><a href="./traveltips.html">Travel tips</a></li>
-                    <li><a href="./offers.html">Ofertas</a></li>
-                    <li><a href="./contact.html">Contacto</a></li>
-                </ul>
-            </nav>
+                    />
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav d-flex gap-5">
+                      <a class="nav-link active text-white" aria-current="page" href="./places.html">Destinos</a>
+                      <a class="nav-link text-white" href="./traveltips.html">Travel tips</a>
+                      <a class="nav-link text-white" href="./offers.html">Ofertas</a>
+                      <a class="nav-link text-white" href="./contact.html">Contacto</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
         </header>
         <main>
-            <h1 class="title-places">Destinos</h1>
-            <article class="article-trip" id="cancun">
+            <h1 class="title-places mt-5">Destinos</h1>
+            <article class="article-trip pe-5 ps-5 pb-5" id="cancun">
                 <div class="article-trip">
                     <h2>Cancún</h2>
                     <h3>Un lugar donde la belleza y la cultura se unen</h3>
@@ -115,7 +124,7 @@
                     </p>
                 </div>
             </article>
-            <article class="article-trip" id="puntacana">
+            <article class="article-trip pe-5 ps-5 pb-5" id="puntacana">
                 <div class="article-trip">
                     <h2>Punta Cana</h2>
                     <h3>
@@ -271,7 +280,7 @@
                     </p>
                 </div>
             </article>
-            <article class="article-trip" id="brasil">
+            <article class="article-trip pe-5 ps-5 pb-5" id="brasil">
                 <div class="article-trip">
                     <h2>Brasil</h2>
                     <h3>Un país repleto de maravillas por donde busques</h3>
@@ -399,7 +408,7 @@
                     </ul>
                 </div>
             </article>
-            <article class="article-trip" id="bariloche">
+            <article class="article-trip pe-5 ps-5 pb-5" id="bariloche">
                 <div class="article-trip">
                     <h2>Bariloche</h2>
                     <h3>Imposible no inspirarse con tanta belleza</h3>
@@ -587,32 +596,26 @@
                 </div>
             </article>
         </main>
-
-        <footer class="footer">
-            <ul>
-                <li>Email: agustina@mail.com</li>
-                <li>Cel: +549-3864678907</li>
+        <footer class="d-flex flex-wrap justify-content-center align-items-center mt-5">
+            <ul class="list-unstyled">
+                <li class="text-center">Email: agustina@mail.com</li>
+                <li class="text-center">Cel: +549-3864678907</li>
             </ul>
-            <img src="../images/logo holaViajero.png" alt="logo" />
-            <ul>
-                <li>
-                    <img
-                        src="../icons/icons8-facebook-nuevo.svg"
-                        alt="facebook"
-                    />
-                    <span>Facebook</span>
+            <img src="../images/logo_hola_viajero_sin_fondo.png" alt="logo" />
+            <ul class="list-unstyled">
+                <li class="text-center">
+                    <span>
+                        <img src="../icons/icons8-facebook-nuevo.svg" alt="facebook" />
+                        Facebook</span>
                 </li>
-                <li>
-                    <img src="../icons/instagram.svg" alt="instagram" /><span
-                        >Instagram</span
-                    >
+                <li class="text-center">
+                    <span><img src="../icons/instagram.svg" alt="instagram" />Instagram</span>
                 </li>
-                <li>
-                    <img src="../icons/youtube.svg" alt="youtube" /><span
-                        >Youtube</span
-                    >
+                <li class="text-center">
+                    <span><img src="../icons/youtube.svg" alt="youtube" />Youtube</span>
                 </li>
             </ul>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>
