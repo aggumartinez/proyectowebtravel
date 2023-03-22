@@ -27,24 +27,9 @@ body {
 }
 
 .links {
-    display: flex;
     font-weight: bold;
     letter-spacing: 1px;
-    border: 1px solid #c4d7d1;
     background-color: #5f9595;
-    justify-content: center;
-    gap: 50px;
-    padding: 60px;
-    
-}
-
-.links li {
-    list-style: none;
-}
-
-.links li a {
-    text-decoration: none;
-    color: #fff;
 }
 
 .profilephoto {
@@ -100,13 +85,6 @@ body {
     text-align: center;
     background-color: rgb(228, 173, 106);
     color: white;
-}
-
-.cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 35px;
 }
 
 .photo-cards {
@@ -295,10 +273,11 @@ body {
 }
 
 .scale-in-center {
-    -webkit-animation: scale-in-center 10.5s
+    -webkit-animation: scale-in-center 5s
         cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-    animation: scale-in-center 10.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: scale-in-center 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
+
 
 @-webkit-keyframes scale-in-center {
     0% {
@@ -325,6 +304,38 @@ body {
     }
 }
 
+
+.scale-cards-trips:hover {
+    -webkit-animation: scale-cards-trips .2s
+        cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: scale-cards-trips 1s ease-in-out linear;
+}
+
+@-webkit-keyframes scale-cards-trips {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+        opacity: 1;
+    }
+}
+@keyframes scale-cards-trips {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+        opacity: 1;
+    }
+}
+
 .footer {
     display: flex;
     align-items: center;
@@ -345,4 +356,6 @@ body {
     min-height: 200px;
     max-height: 200px;
     object-fit: cover;
+    
+
 }

@@ -12,7 +12,7 @@
     <body>
         <header>
             <p class="banner p-2 m-0">¡Si vas a dar vueltas que sea al mundo!</p>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary p-2">
+            <nav class="navbar navbar-expand-lg p-2 links">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="./index.html">
                     <img
@@ -25,25 +25,23 @@
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-link active" aria-current="page" href="./section/places.html">Destinos</a>
-                      <a class="nav-link" href="./section/traveltips.html">Travel tips</a>
-                      <a class="nav-link" href="./section/offers.html">Ofertas</a>
-                      <a class="nav-link" href="./section/contact.html">Contacto</a>
+                    <div class="navbar-nav d-flex gap-5">
+                      <a class="nav-link active text-white" aria-current="page" href="./section/places.html">Destinos</a>
+                      <a class="nav-link text-white" href="./section/traveltips.html">Travel tips</a>
+                      <a class="nav-link text-white" href="./section/offers.html">Ofertas</a>
+                      <a class="nav-link text-white" href="./section/contact.html">Contacto</a>
                     </div>
                   </div>
                 </div>
               </nav>
         </header>
-        <main class="presentation">
-            <img
-                class="profilephoto"
-                src="./images/profilephoto.jpg"
-                alt="profilephoto"
-            />
-            <div class="text-presentation">
+        <main class="row mt-5">
+            <div class="col-3">
+                <img class="w-100 h-auto" src="./images/profilephoto.jpg" alt="profilephoto" />
+            </div>
+            <div class="col-9 ">
                 <h1 class="title">Hola Viajero!</h1>
-                <p>
+                <p class="mt-5">
                     Me llamo Agustina! Soy fotógrafa y diseñadora de experiencia
                     de usuarios y amo viajar. Mi sueño es poder recorrer el
                     mundo, conocer personas de todas las culturas y probar
@@ -62,87 +60,90 @@
             </div>
         </main>
         <section class="cards">
-            <h2 class="title-routes">Mi ruta viajera</h2>
+            <h2 class="title-routes mb-4">Mi ruta viajera</h2>
             <div class="container">
-                <div class="row mb-3">
+                <div class="row mb-3 align-items-center">
                     <div class="col">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card scale-cards-trips" style="width: 18rem;">
                             <img src="./images/cancun.jpg" class="card-img-top img-card" alt="Cancún">
-                            <div class="card-body">
-                                <a class="card-text" href="./section/places.html#cancun">Cancún</a>
+                            <div class="card-body text-center">
+                                <a class="card-text d-block link-dark" href="./section/places.html#cancun">Cancún</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">           
-                        <div class="card" style="width: 18rem;">
+                        <div class="card scale-cards-trips" style="width: 18rem;">
                             <img src="./images/Grecia_Santorini.jpg" class="card-img-top img-card" alt="Grecia">
-                            <div class="card-body">
-                              <a class="card-text" href="./section/places.html">Grecia</a>
+                            <div class="card-body text-center">
+                              <a class="card-text d-block link-dark" href="./section/places.html">Grecia</a>
                             </div>
                           </div>
                     </div>
                     <div class="col">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card scale-cards-trips" style="width: 18rem;">
                             <img src="./images/puntacana.jpg" class="card-img-top img-card" alt="Punta Cana">
-                            <div class="card-body">
-                              <a class="card-text" href="./section/places.html">Punta Cana</a>
+                            <div class="card-body text-center">
+                              <a class="card-text d-block link-dark" href="./section/places.html">Punta Cana</a>
                             </div>
                           </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card scale-cards-trips" style="width: 18rem;">
                             <img src="./images/orlando.jpg" class="card-img-top img-card" alt="Orlando">
-                            <div class="card-body">
-                              <a class="card-text" href="./section/places.html">Orlando</a>
+                            <div class="card-body text-center">
+                              <a class="card-text d-block link-dark" href="./section/places.html">Orlando</a>
                             </div>
                           </div>
                     </div>
                     <div class="col">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card scale-cards-trips" style="width: 18rem;">
                             <img src="./images/bariloche3.jpg" class="card-img-top img-card" alt="Bariloche">
-                            <div class="card-body">
-                              <a class="card-text" href="./section/places.html#bariloche">Bariloche</a>
+                            <div class="card-body text-center">
+                              <a class="card-text d-block link-dark" href="./section/places.html#bariloche">Bariloche</a>
                             </div>
                           </div>
                     </div>
                     <div class="col">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card scale-cards-trips" style="width: 18rem;">
                             <img src="./images/brasil.jpg" class="card-img-top img-card" alt="Brasil">
-                            <div class="card-body">
-                              <a class="card-text" href="./section/places.html#brasil">Brasil</a>
+                            <div class="card-body text-center">
+                              <a class="card-text d-block link-dark" href="./section/places.html#brasil">Brasil</a>
                             </div>
                           </div>
                     </div>
                 </div>  
             </div>
         </section>
-        <footer class="footer">
-            <ul>
-                <li>Email: agustina@mail.com</li>
-                <li>Cel: +549-3864678907</li>
-            </ul>
-            <img src="./images/logo_hola_viajero_sin_fondo.png" alt="logo" />
-            <ul>
-                <li>
-                    <img
-                        src="./icons/icons8-facebook-nuevo.svg"
-                        alt="facebook"
-                    />
-                    <span>Facebook</span>
-                </li>
-                <li>
-                    <img src="./icons/instagram.svg" alt="instagram" /><span
-                        >Instagram</span
-                    >
-                </li>
-                <li>
-                    <img src="./icons/youtube.svg" alt="youtube" /><span
-                        >Youtube</span
-                    >
-                </li>
-            </ul>
+        <footer class="row mt-5">
+            <div class="col-12 col-lg-3">
+                <ul class="list-unstyled">
+                    <li class="text-center">Email: agustina@mail.com</li>
+                    <li class="text-center">Cel: +549-3864678907</li>
+                </ul>
+            </div>
+           <div class="col-12 col-lg-3 d-flex justify-content-center">
+               <img src="./images/logo_hola_viajero_sin_fondo.png" alt="logo" />
+           </div>
+           <div class="col-12 col-lg-3">
+               <ul class="list-unstyled">
+                   <li class="text-center">
+                       <span>
+                        <img
+                           src="./icons/icons8-facebook-nuevo.svg"
+                           alt="facebook"
+                       />
+                       Facebook</span>
+                   </li>
+                   <li class="text-center">
+                       <span><img src="./icons/instagram.svg" alt="instagram" />Instagram</span>
+                   </li>
+                   <li class="text-center">
+                       <span><img src="./icons/youtube.svg" alt="youtube" />Youtube</span>
+                   </li>
+               </ul>
+           </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
