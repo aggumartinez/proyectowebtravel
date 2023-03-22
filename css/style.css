@@ -163,12 +163,8 @@ body {
 }
 
 .button-submit {
-    display: block;
-    width: 20%;
-    padding: 5px;
     background-color: rgb(75, 170, 187);
     color: #fff;
-    margin: 0px auto;
 }
 
 .title-offers {
@@ -205,20 +201,16 @@ body {
     margin-bottom: 50px;
 }
 
-.offers-cards {
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-}
-
-.offers-cards img {
-    width: 350px;
-    height: 250px;
-    margin-top: 20px;
+.img-carousel {
+    width: 500px;
+    height: 350px;
+    margin: 0px auto;
+    object-fit: cover;
 }
 
 .text-offers {
     text-align: center;
+    color: #fff;
 }
 
 .tittle-traveltips {
