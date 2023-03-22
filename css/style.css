@@ -18,7 +18,7 @@ body {
     word-spacing: 5px;
     background-color: #ffb79f;
     color: white;
-    padding: 10px;
+    
 }
 
 .logo {
@@ -35,7 +35,7 @@ body {
     justify-content: center;
     gap: 50px;
     padding: 60px;
-    margin-bottom: 50px;
+    
 }
 
 .links li {
@@ -338,4 +338,11 @@ body {
     list-style: none;
     justify-content: center;
     align-items: center;
+}
+
+
+.img-card{
+    min-height: 200px;
+    max-height: 200px;
+    object-fit: cover;
 }
