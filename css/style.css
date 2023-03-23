@@ -5,7 +5,6 @@ body {
     background-color: #f4edea;
 }
 
-
 * {
     padding: 0px;
     margin: 0px;
@@ -94,6 +93,12 @@ body {
     justify-content: center;
     width: 1300px;
 }
+.img-card{
+    min-height: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    
+}
 
 .ruta-viajera {
     height: 100%;
@@ -131,22 +136,12 @@ body {
 
 .title-contact {
     margin-bottom: 50px;
-    margin-left: 40px;
     color: #f8a910;
 }
 
-.subtitle-contact {
-    margin-left: 40px;
-}
-
-.text-contact {
-    margin-left: 40px;
-}
-
 .form-contact {
-    width: 600px;
-    margin-left: 40px;
-    margin-top: 40px;
+    width: 300px;
+    margin: 0px auto;
 }
 
 .form-contact input {
@@ -167,29 +162,6 @@ body {
     color: #fff;
 }
 
-.title-offers {
-    margin-bottom: 50px;
-    margin-left: 40px;
-    color: #f8a910;
-}
-
-.subtitle-offers {
-    margin-left: 40px;
-    text-align: center;
-}
-
-.form-offers {
-    display: block;
-    margin: 0px auto;
-    width: 20%;
-    margin-top: 15px;
-}
-
-.form-offers input {
-    padding: 5px;
-    width: 100%;
-    margin-bottom: 20px;
-}
 
 .button-search {
     display: block;
@@ -260,10 +232,32 @@ body {
     object-fit: cover;
     margin-bottom: 50px;
 }
+.title-offers {
+    margin-bottom: 50px;
+    margin-left: 40px;
+    color: #f8a910;
+}
 
+.subtitle-offers {
+    margin-left: 40px;
+    text-align: center;
+}
+
+.form-offers {
+    display: block;
+    margin: 0px auto;
+    width: 20%;
+    margin-top: 15px;
+}
+
+.form-offers input {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
 .scale-in-center {
     -webkit-animation: scale-in-center 5s
-        cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     animation: scale-in-center 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
@@ -293,10 +287,9 @@ body {
     }
 }
 
-
 .scale-cards-trips:hover {
     -webkit-animation: scale-cards-trips .2s
-        cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     animation: scale-cards-trips 1s ease-in-out linear;
 }
 
@@ -340,11 +333,3 @@ body {
     align-items: center;
 }
 
-
-.img-card{
-    min-height: 200px;
-    max-height: 200px;
-    object-fit: cover;
-    
-
-}
