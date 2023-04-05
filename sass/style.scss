@@ -44,8 +44,8 @@ body {
 }
 
 .profilephoto {
-    width: 400px;
-    height: 500px;
+    width: 300px;
+    height: 400px;
     margin-top: auto;
 }
 
@@ -58,12 +58,6 @@ body {
     flex-direction: column;
     margin-bottom: 80px;
     margin-left: 50px;
-    color: #f8a910;
-}
-
-.title-routes {
-    text-align: center;
-    margin-top: 50px;
     color: #f8a910;
 }
 
@@ -86,6 +80,9 @@ body {
     justify-content: center;
     width: 1300px;
     
+}
+.title-routes {
+    color: #f8a910;
 }
 .img-card{
     min-height: 200px;
@@ -253,6 +250,10 @@ body {
     animation: scale-in-center 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+.card-custom-color{
+    background-color:#f8a910;
+    color: #fff;
+}
 
 @-webkit-keyframes scale-in-center {
     0% {
@@ -310,13 +311,14 @@ body {
     }
 }
 .card-opinion-img-top{
-    height: 10px;
+    height: 140px;
     width: 140px;
     border-radius: 50%;
     background-color: rgb(75, 170, 187);
     padding: 5px;
-    
+    object-fit: cover;
 }
+
 .footer {
     display: flex;
     align-items: center;
@@ -346,11 +348,11 @@ body {
         }
     
     }
- .profilephoto{
-    width: 300px;
-    height: 400px;
-    margin-left: 20px;
- }
+//  .profilephoto{
+//     width: 300px;
+//     height: 400px;
+//     margin-left: 20px;
+//  }
 }
 
 @media (max-width: 420px) {
@@ -365,10 +367,10 @@ body {
         }
     
     } 
-    .profilephoto{
-        width: 400px;
-        height: 500px;
-     }   
+    // .profilephoto{
+    //     width: 400px;
+    //     height: 500px;
+    //  }   
 }
     
 
