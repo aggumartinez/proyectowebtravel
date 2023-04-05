@@ -8,11 +8,6 @@
   font-family: "Caveat", cursive;
   font-size: 150px;
 }
-.text-portada .card-text {
-  color: rgb(75, 170, 187);
-  font-size: 40px;
-  font-weight: 200;
-}
 
 .footer {
   display: flex;
