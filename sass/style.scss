@@ -23,11 +23,12 @@ body {
     background-color: #DAB88B;
     color: white;
 }
-.logo-holaviajero{
-    height: 280px;
-    width: 350px;
+.navbar-toggler{
+    color: #fff;
 }
-
+.navbar-toggler-icon{
+    color: #fff;
+}
 .tracking-in-contract{-webkit-animation:tracking-in-contract .8s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-contract .8s cubic-bezier(.215,.61,.355,1.000) both}
  @-webkit-keyframes tracking-in-contract{0%{letter-spacing:1em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}@keyframes tracking-in-contract{0%{letter-spacing:1em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}
 

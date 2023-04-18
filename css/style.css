@@ -66,9 +66,12 @@ body {
   color: white;
 }
 
-.logo-holaviajero {
-  height: 280px;
-  width: 350px;
+.navbar-toggler {
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
 }
 
 .tracking-in-contract {
