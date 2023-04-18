@@ -7,13 +7,14 @@
     img {
         display: block;
         margin: 0px auto;
-        width: 95%;
+        width: 100%;
         height: 400px;
         object-fit: cover;
     }
     h2 {
-        color: rgb(75, 170, 187);
+        color:#f8a910;
         font-weight: bold;
-        text-decoration: underline;
+        font-family: "Caveat", cursive;
+        font-size: 60px;
     }
 }
