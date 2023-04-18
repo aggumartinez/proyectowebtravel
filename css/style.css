@@ -5,9 +5,10 @@
   top: 200px;
 }
 .text-portada .card-title {
-  color: #f8a910;
+  color: #dab88d;
+  text-shadow: 1px 1px 2px #000;
   font-family: "Caveat", cursive;
-  font-size: 150px;
+  font-size: 130px;
 }
 
 .footer {
@@ -39,7 +40,7 @@
   object-fit: cover;
 }
 .article-trip h2 {
-  color: #f8a910;
+  color: #C2B092;
   font-weight: bold;
   font-family: "Caveat", cursive;
   font-size: 60px;
@@ -61,14 +62,51 @@ body {
   text-align: center;
   font-weight: bold;
   word-spacing: 5px;
-  background-color: rgb(228, 173, 106);
+  background-color: #DAB88B;
   color: white;
 }
 
+.logo-holaviajero {
+  height: 280px;
+  width: 350px;
+}
+
+.tracking-in-contract {
+  -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
 .links {
   font-weight: bold;
   letter-spacing: 1px;
-  background-color: rgb(75, 170, 187);
+  background-color: #43919B;
+  height: 180px;
 }
 
 .container-presentation .photo {
@@ -81,7 +119,8 @@ body {
 
 .title {
   text-align: center;
-  color: #f8a910;
+  color: #C2B092;
+  text-shadow: 1px 1px 2px rgb(229, 178, 27);
   font-family: "Caveat", cursive;
   font-size: 60px;
 }
@@ -90,7 +129,7 @@ body {
   flex-direction: column;
   margin-bottom: 80px;
   margin-left: 50px;
-  color: #f8a910;
+  color: #C2B092;
   font-family: "Caveat", cursive;
   font-size: 60px;
 }
@@ -210,7 +249,8 @@ body {
   }
 }
 .title-routes {
-  color: #f8a910;
+  color: #C2B092;
+  text-shadow: 1px 1px 2px rgb(229, 178, 27);
   font-family: "Caveat", cursive;
   font-size: 60px;
   text-align: center;
@@ -236,7 +276,7 @@ body {
 
 .title-contact {
   margin-bottom: 50px;
-  color: #f8a910;
+  color: #C2B092;
   font-family: "Caveat", cursive;
   font-size: 60px;
 }
@@ -286,19 +326,6 @@ body {
   color: #fff;
 }
 
-.tittle-traveltips {
-  margin-bottom: 50px;
-  margin-left: 40px;
-  color: #f8a910;
-  font-family: "Caveat", cursive;
-  font-size: 60px;
-}
-
-.subtittle-traveltips {
-  margin-left: 40px;
-  text-align: center;
-}
-
 .article-travel {
   display: flex;
   flex-direction: column;
@@ -310,7 +337,7 @@ body {
 }
 
 .traveltips-h3 {
-  color: #f8a910;
+  color: #C2B092;
   font-weight: bold;
   text-decoration: underline;
   font-family: "Caveat", cursive;
@@ -352,7 +379,7 @@ body {
 .title-offers {
   margin-bottom: 50px;
   margin-left: 40px;
-  color: #f8a910;
+  color: #C2B092;
   font-family: "Caveat", cursive;
   font-size: 60px;
 }
