@@ -23,12 +23,6 @@ body {
     background-color: #DAB88B;
     color: white;
 }
-.navbar-toggler{
-    color: #fff;
-}
-.navbar-toggler-icon{
-    color: #fff;
-}
 .tracking-in-contract{-webkit-animation:tracking-in-contract .8s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-contract .8s cubic-bezier(.215,.61,.355,1.000) both}
  @-webkit-keyframes tracking-in-contract{0%{letter-spacing:1em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}@keyframes tracking-in-contract{0%{letter-spacing:1em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}
 
@@ -36,7 +30,7 @@ body {
     font-weight: bold;
     letter-spacing: 1px;
     background-color: #43919B;
-    height: 180px;
+    // height: 180px;
 }
 
 .container-presentation .photo {
@@ -50,7 +44,6 @@ body {
 .title {
     text-align: center;
     color: #C2B092;
-    text-shadow: 1px 1px 2px rgb(229, 178, 27);
     font-family: 'Caveat', cursive;
     font-size: 60px;
 }
@@ -199,7 +192,6 @@ body {
 
 .title-routes {
     color: #C2B092;
-    text-shadow: 1px 1px 2px rgb(229, 178, 27);
     font-family: 'Caveat', cursive;
     font-size: 60px;
     text-align: center;
