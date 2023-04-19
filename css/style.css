@@ -50,12 +50,35 @@ body {
   font-family: "Quicksand", sans-serif;
   font-weight: 200;
   background-color: #fff;
+  position: relative;
 }
 
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+}
+
+.scroll-top {
+  height: 50px;
+  width: 50px;
+  background-color: #43919B;
+  position: fixed;
+  bottom: 10px;
+  right: 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.336);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.scroll-top svg {
+  width: 60%;
+  color: #fff;
+  pointer-events: none;
 }
 
 .banner {
@@ -123,18 +146,6 @@ body {
   color: #C2B092;
   font-family: "Caveat", cursive;
   font-size: 60px;
-}
-
-.trip {
-  width: 400px;
-  height: 250px;
-}
-
-.trip a {
-  display: block;
-  text-align: center;
-  background-color: rgb(228, 173, 106);
-  color: #fff;
 }
 
 .photo-cards {
@@ -366,9 +377,23 @@ body {
   margin-bottom: 50px;
 }
 
+.video-youtube {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cuadro-youtube {
+  width: 545px;
+  height: 280px;
+  margin: 10px;
+}
+
 .title-offers {
   margin-bottom: 50px;
-  margin-left: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
   color: #C2B092;
   font-family: "Caveat", cursive;
   font-size: 60px;
@@ -391,6 +416,12 @@ body {
   padding: 5px;
   width: 100%;
   margin-bottom: 20px;
+}
+
+.error-img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
 }
 
 .scale-in-center {

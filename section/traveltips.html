@@ -16,11 +16,16 @@
 </head>
 
 <body>
+    <div class="scroll-top">
+        <a href="#home">
+            <img src="../icons/up.svg" alt="back to top">
+        </a>
+    </div>
     <header>
         <p class="banner p-2 m-0">¡Si vas a dar vueltas que sea al mundo!</p>
         <nav class="navbar navbar-expand-lg p-2 links">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">
+                <a class="navbar-brand" id="home" href="../index.html">
                     <img src="../images/logofinal.png" class="slide-in-left" alt="logo" />
                 </a>
                 <button class="navbar-toggler border border-light" type="button" data-bs-toggle="collapse"
@@ -44,7 +49,7 @@
     <main>
         <article class="article-trip ps-1 pe-1 pe-md-5 ps-md-5 pb-5">
             <div class="article-trip me-5 ms-5">
-                <h2>
+                <h2 class="mt-3">
                     ¿Que tener en cuenta al momento de viajar en avión?
                 </h2>
                 <h4>
@@ -351,10 +356,12 @@
                 </p>
 
                 <img class="img-passenger" src="../images/passenger.webp" alt="passenger" />
-                <iframe class="img-passenger mt-5" src="https://www.youtube.com/embed/87xm8v-BjfA"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                <section class="video-youtube">
+                    <iframe class="cuadro-youtube mt-5" src="https://www.youtube.com/embed/87xm8v-BjfA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </section>
             </div>
             <section>
             </section>
@@ -369,15 +376,17 @@
         <img src="../images/logoholaViajero3.png" alt="logo" />
         <ul class="list-unstyled">
             <li class="text-center">
-                <span>
+                <a class="text-decoration-none text-dark" href="../section/errorpage.html">
                     <img src="../icons/icons8-facebook-nuevo.svg" alt="facebook" />
-                    Facebook</span>
+                    Facebook</a>
             </li>
             <li class="text-center">
-                <span><img src="../icons/instagram.svg" alt="instagram" />Instagram</span>
+                <a class="text-decoration-none text-dark" href="../section/errorpage.html">
+                    <img src="../icons/instagram.svg" alt="instagram" />Instagram</a>
             </li>
             <li class="text-center">
-                <span><img src="../icons/youtube.svg" alt="youtube" />Youtube</span>
+                <a class="text-decoration-none text-dark" href="../section/errorpage.html">
+                    <img src="../icons/youtube.svg" alt="youtube" />Youtube</a>
             </li>
         </ul>
     </footer>
